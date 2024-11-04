@@ -1,0 +1,41 @@
+body {
+    font-family: Mansalva, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background: rgb(255, 228, 189);
+    flex-direction: column;
+    text-align:center
+}
+
+h1 {color: rgb(57, 40, 1);
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 0px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+button{
+    font-family: Mansalva, sans-serif;
+    background-color: rgb(142, 219, 247);
+    border-color:rgb(57, 40, 1);
+    border: 1px;
+    color:rgb(57, 40, 1);
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+button:hover{
+        background-color:rgb(57, 40, 1);
+        color: rgb(142, 219, 247);
+        cursor: pointer;
+        transition: background-color 0.5s, color 1s;} 
+
+
+
+#subheading{
+    text-align: center;
+    padding-top: 0;
+}
